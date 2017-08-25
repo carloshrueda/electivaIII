@@ -4,7 +4,7 @@
 * implementado por Uncommons Maths
 * Web: https://maths.uncommons.org/
 * documentacion: https://maths.uncommons.org/api/index.html
-*/
+ */
 package JavaBasico;
 
 import org.uncommons.maths.random.MersenneTwisterRNG;
@@ -20,7 +20,7 @@ public class Dados3 {
         int[] vfrec = new int[11];
         final int veces = 1000000;
 
-        MersenneTwisterRNG r= new MersenneTwisterRNG();
+        MersenneTwisterRNG r = new MersenneTwisterRNG();
 
         //generando los lanzamientos de dados
         r.setSeed(System.currentTimeMillis());

@@ -4,7 +4,7 @@
 * implementado por Sean Luke
 * Web: https://cs.gmu.edu/~sean/research/
 * documentacion: https://cs.gmu.edu/~sean/research/mersenne/
-*/
+ */
 package JavaBasico;
 
 import ec.util.MersenneTwister;
@@ -20,7 +20,7 @@ public class Dados2 {
         int[] vfrec = new int[11];
         final int veces = 1000000;
 
-        MersenneTwister r= new MersenneTwister();
+        MersenneTwister r = new MersenneTwister();
 
         //generando los lanzamientos de dados
         r.setSeed(System.currentTimeMillis());

@@ -140,7 +140,11 @@ public class Operaciones {
         for(i=0; i<vi.length; i++)
             System.out.printf("%5d%8d%n", i, vi[i]);
         
-                
+        int[] vec= {86,68,3,52,8,12};
+        
+        for(int num:vec) {
+            System.out.println("valor: " + num);
+        }
                 
                 
                 

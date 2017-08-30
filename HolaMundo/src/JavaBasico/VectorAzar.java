@@ -24,7 +24,7 @@ public class VectorAzar {
         int i;
         final int tam = 7;
         int[] vfin = new int[tam];
-        int p, t;
+        int p;
 
         SecureRandom r;
         try {

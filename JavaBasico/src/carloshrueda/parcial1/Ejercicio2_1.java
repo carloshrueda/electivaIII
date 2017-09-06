@@ -8,7 +8,7 @@
  * subtotal menos descuentos y el valor total correspondiente al subtotal, menos 
  * los descuentos, mas el iva.
  * 
- * Resolución con vectores - version 1
+ * Resolución con vectores - version 2
  */
 package carloshrueda.parcial1;
 
@@ -19,7 +19,7 @@ import java.util.Arrays;
  *
  * @author carloshrueda@gmail.com
  */
-public class Ejercicio2 {
+public class Ejercicio2_1 {
 
     /**
      * @param args the command line arguments

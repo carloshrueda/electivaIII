@@ -18,7 +18,7 @@ public class Dados3 {
     public static void main(String[] args) {
         int i;
         int[] vfrec = new int[11];
-        final int veces = 1000000;
+        final int veces = 100000000;
 
         MersenneTwisterRNG r = new MersenneTwisterRNG();
 
@@ -44,7 +44,7 @@ public class Dados3 {
             }
         }
 
-        System.out.println("\nEl valor que mas cae es: " + imax);
+        System.out.println("\n(dados 3) El valor que mas cae es: " + imax);
 
     }
 }

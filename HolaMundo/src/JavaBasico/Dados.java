@@ -12,7 +12,7 @@ public class Dados {
     public static void main(String[] args) {
         int i;
         int[] vfrec = new int[11];
-        final int veces = 1000000;
+        final int veces = 100000000;
 
         SecureRandom r;
         try {
@@ -38,7 +38,7 @@ public class Dados {
                 }
             }
 
-            System.out.println("\nEl valor que mas cae es: " + imax);
+            System.out.println("\n(dados) El valor que mas cae es: " + imax);
         } catch (NoSuchAlgorithmException ex) {
             System.err.println(Dados.class.getName() + "\n" + ex.getMessage());
         }

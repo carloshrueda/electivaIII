@@ -30,7 +30,7 @@ public class Ejercicio2 {
 
         //Ingresar valores
         Scanner scn = new Scanner(System.in);
-        System.out.print("Cuantos artículos son?: ");
+        System.out.print("(ejercicio 2) Cuantos artículos son?: ");
         cant = scn.nextInt();
 
         long[] vprodprecio = new long[cant];
@@ -82,7 +82,5 @@ public class Ejercicio2 {
         System.out.println(String.format("%0" + 25 + "d", 0).replace("0", "-"));
         System.out.printf("%6s%9s%d%n", "TOTAL", "$", Math.round(total));
         System.out.println(String.format("%0" + 25 + "d", 0).replace("0", "-"));
-
     }
-
 }

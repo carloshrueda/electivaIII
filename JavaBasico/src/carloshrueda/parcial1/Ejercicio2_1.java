@@ -30,7 +30,7 @@ public class Ejercicio2_1 {
 
         //Ingresar valores
         Scanner scn = new Scanner(System.in);
-        System.out.print("Cuantos artículos son?: ");
+        System.out.print("(ejercicio 2_1) Cuantos artículos son?: ");
         cant = scn.nextInt();
         while (cant < 1) {
             System.out.println("Error. Cantidad de artículos inválida. (n>0)");
@@ -84,7 +84,5 @@ public class Ejercicio2_1 {
         System.out.println(String.format("%0" + 25 + "d", 0).replace("0", "-"));
         System.out.printf("%6s%9s%d%n", "TOTAL", "$", Math.round(total));
         System.out.println(String.format("%0" + 25 + "d", 0).replace("0", "-"));
-
     }
-
 }

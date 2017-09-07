@@ -30,7 +30,7 @@ public class Ejercicio2_1 {
 
         //Ingresar valores
         Scanner scn = new Scanner(System.in);
-        System.out.print("(ejercicio 2_1) Cuantos artículos son?: ");
+        System.out.print("(ejercicio 2_1) Cuantos articulos son?: ");
         cant = scn.nextInt();
         while (cant < 1) {
             System.out.println("Error. Cantidad de artículos inválida. (n>0)");

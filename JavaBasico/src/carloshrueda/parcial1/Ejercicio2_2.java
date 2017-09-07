@@ -37,7 +37,6 @@ public class Ejercicio2_2 {
             System.out.println("\nCuantos artículos son?: ");
             cant = scn.nextInt();
         }
-        scn.close();
 
         long[] vprodprecio = new long[cant];
 
@@ -55,6 +54,7 @@ public class Ejercicio2_2 {
             subtotal += precio;
 
         }
+        scn.close();
 
         //Impresion de resultados (Precios y subtotal)
         System.out.printf("%n%20s%n", "MENOS X MAS");

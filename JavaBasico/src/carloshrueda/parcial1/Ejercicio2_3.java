@@ -74,12 +74,18 @@ public class Ejercicio2_3 {
 		for (i = 3; (i > 0); i--) {
 			precio = vprodprecio.remove(vprodprecio.size() - 1);
 			descuento += Math.round((double) precio * ((double) (i) / 10.0));
-			/*precio = vprodprecio.get(vprodprecio.size()-i);
-			descuento += Math.round((double) precio * ((double) (3-i) / 10.0));*/
 			if (vprodprecio.isEmpty()) {
 				break;
 			}
 		}
+		
+		/*for (i = 1; (i < 4); i++) {
+			precio = vprodprecio.get(vprodprecio.size()-i);
+			descuento += Math.round((double) precio * ((double) (4-i) / 10.0));
+			if (vprodprecio.isEmpty()) {
+				break;
+			}
+		}*/
 
 		// Calculo del IVA
 		iva = Math.round(((double) (subtotal - descuento) * 0.2));

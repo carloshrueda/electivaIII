@@ -79,7 +79,8 @@ public class Ejercicio2_3 {
 			}
 		}
 		
-		/*for (i = 1; (i < 4); i++) {
+		/* esta opcion me gusta más
+		 * for (i = 1; (i < 4); i++) {
 			precio = vprodprecio.get(vprodprecio.size()-i);
 			descuento += Math.round((double) precio * ((double) (4-i) / 10.0));
 			if (vprodprecio.isEmpty()) {

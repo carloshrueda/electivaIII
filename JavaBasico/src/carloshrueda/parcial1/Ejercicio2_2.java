@@ -1,14 +1,14 @@
 /*
- * UDI - IngenierÃ­a de Sistemas - Electiva 3 - Parcial 1 - Ejercicio 1
+ * UDI - Ingeniería de Sistemas - Electiva 3 - Parcial 1 - Ejercicio 1
  * El supermercado menos por mas esta de aniversario y desea dar un descuento a 
- * sus clientes en las tres compras mÃ¡s costosas que realicen. A la primera mÃ¡s 
+ * sus clientes en las tres compras más costosas que realicen. A la primera más 
  * costosa un descuento de 30%, segunda de 20% y a la tercera de 10%. Imprimir 
- * la relaciÃ³n de la productos con sus precios sin descuento, luego el subtotal, 
- * despuÃ©s el valor total de los descuentos, seguido del valor del iva (20%) del 
+ * la relación de la productos con sus precios sin descuento, luego el subtotal, 
+ * después el valor total de los descuentos, seguido del valor del iva (20%) del 
  * subtotal menos descuentos y el valor total correspondiente al subtotal, menos 
  * los descuentos, mas el iva.
  * 
- * ResoluciÃ³n con vectores - version 3 (Clase Vector)
+ * Resolución con vectores - version 3 (Clase Vector)
  */
 package carloshrueda.parcial1;
 
@@ -37,8 +37,8 @@ public class Ejercicio2_2 {
 		System.out.print("(ejercicio 2_2) Cuantos articulos son?: ");
 		cant = scn.nextInt();
 		while (cant < 1) {
-			System.out.println("Error. Cantidad de artÃ­culos invÃ¡lida. (n>0)");
-			System.out.println("\nCuantos artÃ­culos son?: ");
+			System.out.println("Error. Cantidad de artículos inválida. (n>0)");
+			System.out.println("\nCuantos artículos son?: ");
 			cant = scn.nextInt();
 		}
 
@@ -48,7 +48,7 @@ public class Ejercicio2_2 {
 			System.out.print("Ingrese el precio del producto: ");
 			precio = scn.nextInt();
 			while (precio < 1) {
-				System.out.println("Error. Precio invÃ¡lido (precio > 0)\n");
+				System.out.println("Error. Precio inválido (precio > 0)\n");
 
 				System.out.print("Ingrese el precio del producto: ");
 				precio = scn.nextInt();
@@ -63,7 +63,7 @@ public class Ejercicio2_2 {
 		System.out.printf("%n%20s%n", "MENOS X MAS");
 		System.out.println(String.format("%0" + 30 + "d", 0).replace("0", "-"));
 		for (i = 0; i < cant; i++) {
-			System.out.printf("%3s%2d%5s%d%n", "ArtÃ­culo", (i + 1), "$", vprodprecio.get(i));
+			System.out.printf("%3s%2d%5s%d%n", "Artículo", (i + 1), "$", vprodprecio.get(i));
 		}
 		System.out.println(String.format("%0" + 25 + "d", 0).replace("0", "-"));
 		System.out.printf("%9s%6s%d%n", "SUBTOTAL", "$", subtotal);

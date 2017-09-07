@@ -73,7 +73,6 @@ public class Ejercicio2_3 {
 		descuento = 0L;
 		for (i = 3; (i > 0); i--) {
 			precio = vprodprecio.remove(vprodprecio.size() - 1);
-			precio = vprodprecio.remove(vprodprecio.size() - i);
 			descuento += Math.round((double) precio * ((double) (i) / 10.0));
 			/*precio = vprodprecio.get(vprodprecio.size()-i);
 			descuento += Math.round((double) precio * ((double) (3-i) / 10.0));*/

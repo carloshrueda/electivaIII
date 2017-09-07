@@ -49,6 +49,7 @@ public class Ejercicio2 {
             subtotal += precio;
 
         }
+        scn.close();
 
         //Encontrar los tres productos mas caros
         long[] vtemp = new long[cant]; //vector para hacer operaciones

@@ -43,6 +43,7 @@ public class Ejercicio1 {
             System.out.print("\nIntroduzca la altura [pies]: ");
             altura_ant = scn.nextDouble();
         }
+        scn.close();
 
         peso_new = peso_ant * libra2kilo;
         altura_new = altura_ant * pie2metro;

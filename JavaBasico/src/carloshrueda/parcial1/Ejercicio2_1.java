@@ -54,6 +54,7 @@ public class Ejercicio2_1 {
             subtotal += precio;
 
         }
+        scn.close();
 
         //Impresion de resultados (Precios y subtotal)
         System.out.printf("%n%20s%n", "MENOS X MAS");

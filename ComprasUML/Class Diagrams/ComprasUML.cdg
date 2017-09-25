@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ComprasUML">
+  <ClassDiagramComponents>
+    <Class name="Fruta" package="Compras" visibility="public" xPosition="286.0" yPosition="133.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="Tipo" type="int" visibility="private"/>
+        <Field name="Peso" type="double" visibility="private"/>
+        <Field name="Calorias" type="double" visibility="private"/>
+        <Field name="Precio" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Papaya" package="" visibility="public" xPosition="14.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Kiwi" package="" visibility="public" xPosition="191.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Naranja" package="" visibility="public" xPosition="364.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Mango" package="" visibility="public" xPosition="532.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Banano" package="" visibility="public" xPosition="705.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Papaya" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Kiwi" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Banano" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Mango" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Naranja" target="Compras.Fruta"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

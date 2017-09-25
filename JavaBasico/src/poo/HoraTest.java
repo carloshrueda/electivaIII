@@ -24,6 +24,17 @@ public class HoraTest {
         System.out.println("Constructores: ");
         desplegarHora("Hora 1:", h1);
         desplegarHora("Hora 2:", h2);
+        desplegarHora("Hora 3:", h3);
+        desplegarHora("Hora 4:", h4);
+        desplegarHora("Hora 5:", h5);
+        
+        try {
+            Hora t6= new Hora(27, 74, 99);
+        } catch (IllegalArgumentException e) {
+            System.out.printf("%nExcepción captura al crear un objeto t6: %s%n", 
+                    e.getMessage());
+        }
+
     }
 
     private static void desplegarHora(String str, Hora h) {

@@ -25,7 +25,7 @@ public class Fruta {
         return Nombre;
     }
 
-    private void setNombre(String Nombre) {
+    protected void setNombre(String Nombre) {
         this.Nombre = Nombre;
     }
 

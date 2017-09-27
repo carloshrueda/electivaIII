@@ -2,15 +2,11 @@ package Compras;
 
 public class Fruta {
 
-    private String Nombre;
-
-    private TipoFruta Tipo;
-
-    private double Peso;
-
-    private double Calorias;
-
-    private int Precio;
+    protected String Nombre;
+    protected TipoFruta Tipo;
+    protected double Peso;
+    protected double Calorias;
+    protected int Precio;
 
     public Fruta() {
         this.Nombre = "";
@@ -41,7 +37,7 @@ public class Fruta {
         return Calorias;
     }
 
-    private void setCalorias(double Calorias) {
+    protected void setCalorias(double Calorias) {
         this.Calorias = Calorias;
     }
 

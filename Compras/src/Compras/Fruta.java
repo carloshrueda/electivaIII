@@ -4,8 +4,6 @@ public class Fruta {
 
     private String Nombre;
 
-    //TODO: Convertir esto en una clase enum
-    //public static enum Tipo {PAPAYA, KIWI, NARANJA, MANGO, BANANO};
     private TipoFruta Tipo;
 
     private double Peso;
@@ -19,6 +17,8 @@ public class Fruta {
         this.Peso = 0.0;
         this.Calorias = 0.0;
         this.Precio = 0;
+        //TODO
+        this.Tipo= null;
     }
 
     public String getNombre() {
@@ -53,32 +53,32 @@ public class Fruta {
         this.Precio = Precio;
     }
 
-    //TODO:
+    //TODO
     public TipoFruta getTipo() {
         return this.Tipo;
     }
 
+    //TODO
     @Override
     public String toString() {
         return Tipo.toString();
     }
 
+    //TODO
     public static Fruta getFruta(TipoFruta tipoFruta) {
-        if (tipoFruta==TipoFruta.PAPAYA) {
-            return new Papaya();
+        switch(tipoFruta) {
+            case PAPAYA:
+                return new Papaya();
+            case KIWI:
+                return new Kiwi();
+            case NARANJA:
+                return new Naranja();
+            case MANGO:
+                return new Mango();
+            case BANANO:
+                return new Banano();
+            default:
+                return null;
         }
-        if (tipoFruta==TipoFruta.KIWI) {
-            return new Kiwi();
-        }
-        if (tipoFruta==TipoFruta.NARANJA) {
-            return new Naranja();
-        }
-        if (tipoFruta==TipoFruta.MANGO) {
-            return new Mango();
-        }
-        if (tipoFruta==TipoFruta.BANANO) {
-            return new Banano();
-        }
-        return null;
     }
 }

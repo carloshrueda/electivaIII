@@ -1,0 +1,5 @@
+Archivo txt
+para el programa
+ArchivosClase.java
+fin del archivo
+.

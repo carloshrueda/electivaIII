@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ComprasUML">
+  <ClassDiagramComponents>
+    <Class name="Fruta" package="Compras" visibility="public" xPosition="249.0" yPosition="143.0">
+      <Fields>
+        <Field name="Nombre" type="String" visibility="private"/>
+        <Field name="Peso" type="double" visibility="private"/>
+        <Field name="Calorias" type="double" visibility="private"/>
+        <Field name="Precio" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Papaya" package="Compras" visibility="public" xPosition="14.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Kiwi" package="Compras" visibility="public" xPosition="191.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Naranja" package="Compras" visibility="public" xPosition="364.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Mango" package="Compras" visibility="public" xPosition="532.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Banano" package="Compras" visibility="public" xPosition="706.0" yPosition="412.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Enum name="TipoFruta" package="Compras" visibility="public" xPosition="457.0" yPosition="28.0">
+      <Literals/>
+    </Enum>
+    <Class name="Carro" package="Compras" visibility="public" xPosition="114.0" yPosition="23.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Compras.Papaya" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Compras.Kiwi" target="Compras.Fruta"/>
+    <HasRelation name="tiene" source="Compras.Fruta" target="Compras.Carro" type="Default" sourceCardinality="0..1" targetCardinality="0..*" collectionType="List"/>
+    <IsRelation name="is" source="Compras.Banano" target="Compras.Fruta"/>
+    <IsRelation name="is" source="Compras.Mango" target="Compras.Fruta"/>
+    <UseRelation name="es" source="Compras.Fruta" target="Compras.TipoFruta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Compras.Naranja" target="Compras.Fruta"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

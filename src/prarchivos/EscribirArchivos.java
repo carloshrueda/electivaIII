@@ -20,8 +20,8 @@ public class EscribirArchivos {
      */
     public static void main(String[] args) {
         try {
-            FileOutputStream os = new FileOutputStream("dataFile.txt", false);
-            PrintWriter pw= new PrintWriter(os);
+            FileOutputStream fos = new FileOutputStream("dataFile.txt", false);
+            PrintWriter pw= new PrintWriter(fos);
             
             pw.print("CS130: ");
             pw.print(95);

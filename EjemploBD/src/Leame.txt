@@ -1,0 +1,9 @@
+Aquí se encuentran dos proyectos de conexión a base de datos con JAVA y MySQL.
+1.) ejemplobd.EjemploBD.java
+2.) servicios.Principal.java
+
+el primero es una aplicación consola con conexión y consulta sql
+
+El segundo es una aplicación GUI con operaciones basicas de base da datos
+(Ingresar, consultar, modificar, eliminar)
+

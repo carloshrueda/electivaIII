@@ -22,10 +22,10 @@ public class EjemploBD {
      */
     public static void main(String[] args) {
         Connection cnx = null;
-        String url = "jdbc:mysql://sql10.freesqldatabase.com/";
-        String dbName = "sql10203686";
-        String userName = "sql10203686";
-        String password = "MuAlLXKl7E";
+        String url = "jdbc:mysql://db4free.net/";
+        String dbName = "bdelectiva3";
+        String userName = "usumysql";
+        String password = "110288";
 
         //Conexion a la base de datos
         if (cnx == null) {

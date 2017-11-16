@@ -16,11 +16,10 @@ public class Conexion {
     private static Connection cnx = null;
 
     public static Connection obtener() throws SQLException, ClassNotFoundException {
-        String url = "jdbc:mysql://sql10.freesqldatabase.com/";
-        String dbName = "sql10203686";
-
-        String userName = "sql10203686";
-        String password = "MuAlLXKl7E";
+        String url = "jdbc:mysql://db4free.net/";
+        String dbName = "bdelectiva3";
+        String userName = "usumysql";
+        String password = "110288";
         if (cnx == null) {
             try {
                 Class.forName("com.mysql.jdbc.Driver");

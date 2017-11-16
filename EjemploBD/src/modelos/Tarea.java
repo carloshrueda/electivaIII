@@ -8,7 +8,7 @@ package modelos;
 
 /**
  * 
- * @author Fernando
+ * @author
  */
 public class Tarea {
     

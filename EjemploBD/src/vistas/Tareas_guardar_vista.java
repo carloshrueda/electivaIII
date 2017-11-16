@@ -14,7 +14,7 @@ import servicios.Tareas_servicio;
 
 /**
  *
- * @author Fernando
+ * @author 
  */
 public class Tareas_guardar_vista extends javax.swing.JFrame {
 

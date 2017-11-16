@@ -9,7 +9,7 @@ import vistas.Tareas_listar_vista;
 
 /**
  *
- * @author Fernando
+ * @author 
  */
 public class Principal {
 
